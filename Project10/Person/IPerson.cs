@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Project10
 {
-    class customer
+    interface IPerson
     {
-        public string Status { get; set; }
+        void Add();
+        void Update();
+        void Delete();
     }
 }

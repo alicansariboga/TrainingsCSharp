@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Project10.Customer;
+using Project10.Employee;
+using System;
 
 namespace Project10
 {
@@ -6,7 +8,9 @@ namespace Project10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProjectManager projectManager = new ProjectManager();
+            projectManager.Add(new CustomerManager());
+            projectManager.Add(new EmployeeManager());
         }
     }
 }

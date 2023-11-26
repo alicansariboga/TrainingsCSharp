@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project10
+namespace Project10.Customer
 {
-    interface ICustomer
+    class Customer : Person
     {
-        void Add();
-        void Update();
-        void Delete();
+       public string Status { get; set; } // seller - purchaser - lodger
     }
 }
