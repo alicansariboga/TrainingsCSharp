@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev3", "Odev3\Odev3.csproj", "{E1C3E44C-BFE6-4A17-AB13-0DF4E7EB639F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project03", "Odev3\Project03.csproj", "{E1C3E44C-BFE6-4A17-AB13-0DF4E7EB639F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev4", "Odev4\Odev4.csproj", "{2EABA29C-9AAE-41C5-8DAE-D0BB7D19B69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project04", "Odev4\Project04.csproj", "{2EABA29C-9AAE-41C5-8DAE-D0BB7D19B69C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev5", "Odev5\Odev5.csproj", "{6EEFDCB3-7CD9-4F69-B5AB-7E9034E4CB59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project05", "Odev5\Project05.csproj", "{6EEFDCB3-7CD9-4F69-B5AB-7E9034E4CB59}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev6", "Odev6\Odev6.csproj", "{AD5970A4-C038-43F5-A2FD-3228D51E4323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project06", "Odev6\Project06.csproj", "{AD5970A4-C038-43F5-A2FD-3228D51E4323}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev7", "Odev7\Odev7.csproj", "{5C2599F1-4C1A-430D-97AD-18136F902310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project07", "Odev7\Project07.csproj", "{5C2599F1-4C1A-430D-97AD-18136F902310}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev8", "Odev8\Odev8.csproj", "{C6B7DB44-06A4-4638-80D7-31971EB9F88D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project08", "Odev8\Project08.csproj", "{C6B7DB44-06A4-4638-80D7-31971EB9F88D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev9", "Odev9\Odev9.csproj", "{8216C0B5-167F-4D4A-AE06-8CED88F08011}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project09", "Odev9\Project09.csproj", "{8216C0B5-167F-4D4A-AE06-8CED88F08011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project10", "Project10\Project10.csproj", "{28A792C9-56E2-4EAB-A7AD-6E20D04AC6B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8216C0B5-167F-4D4A-AE06-8CED88F08011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8216C0B5-167F-4D4A-AE06-8CED88F08011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8216C0B5-167F-4D4A-AE06-8CED88F08011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A792C9-56E2-4EAB-A7AD-6E20D04AC6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A792C9-56E2-4EAB-A7AD-6E20D04AC6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A792C9-56E2-4EAB-A7AD-6E20D04AC6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A792C9-56E2-4EAB-A7AD-6E20D04AC6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
