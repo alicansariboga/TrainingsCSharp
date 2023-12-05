@@ -8,6 +8,6 @@ namespace Project13.Entity
 {
     public class Customer : Person , IEntity
     {
-        public string Status { get; set; } // seller - purchaser - lodger
+        public string CustomerStatus { get; set; } // seller - purchaser - lodger
     }
 }

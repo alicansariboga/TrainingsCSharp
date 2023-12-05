@@ -9,7 +9,7 @@ namespace Project13.Entity
     public class Person : IEntity
     {
         public int Id { get; set; }
-        public int NationalIdentity { get; set; }
+        public long NationalIdentity { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string City { get; set; }
