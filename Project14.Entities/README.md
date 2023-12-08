@@ -1,0 +1,1 @@
+﻿The entities created here are designed for NorthWind DB. Therefore, Mapper will not be used, but we use mapper when there is a naming difference between Class and Database. To use this feature, I named the Order and OrderDetail classes Turkish.
