@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Project14.Data\Project14.Data.csproj" />
+    <ProjectReference Include="..\Project14.Entities\Project14.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
