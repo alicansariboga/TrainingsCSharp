@@ -10,7 +10,7 @@ namespace Project14.Business.@abstract
     public interface ICustomerService
     {
         List<Customer> GetAll();
-        Customer GetById(int id);
+        Customer GetById(string id);
         void Add(Customer customer);
         void Update(Customer customer);
         void Delete(Customer customer);

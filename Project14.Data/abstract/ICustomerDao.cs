@@ -9,5 +9,6 @@ namespace Project14.Data.@abstract
 {
     public interface ICustomerDao : IEntityRepository<Customer>
     {
+        Customer GetById(string id);
     }
 }

@@ -8,7 +8,7 @@ namespace Project14.Entities
 {
     public class Customer : IEntity
     {
-        public int CustomerId { get; set; }
+        public string CustomerId { get; set; } // in here, according to DB; ID is not a int, it is a string.
         public string CompanyName { get; set; }
         public string ContactName { get; set; } // null
     }

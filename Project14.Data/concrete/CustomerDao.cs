@@ -36,11 +36,17 @@ namespace Project14.Data.concrete
             }
         }
 
+        // there is a convert erro for int.
         public Customer GetById(int id)
         {
-            using (LogisticContext logisticContext = new LogisticContext())
+            throw new NotImplementedException();
+        }
+
+        public Customer GetById(string id)
+        {
+            using(LogisticContext logisticContext = new LogisticContext())
             {
-                return logisticContext.Customers.SingleOrDefault(p => p.CustomerId == id);
+                return logisticContext.Customers.SingleOrDefault(p => p.ContactName == id);
             }
         }
 

@@ -32,7 +32,7 @@ namespace Project14.Business.concrete
             return _customerDao.GetAll();
         }
 
-        public Customer GetById(int id)
+        public Customer GetById(string id)
         {
             return _customerDao.GetById(id);
         }
