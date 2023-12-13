@@ -12,7 +12,7 @@ namespace Project15.Entities
         public int MessageId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public MailAddress EMail { get; set; }
+        public string EMail { get; set; }
         public string MessageContent { get; set; }
     }
 }

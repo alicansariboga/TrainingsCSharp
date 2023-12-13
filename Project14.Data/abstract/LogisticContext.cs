@@ -32,7 +32,7 @@ namespace Project14.Data.@abstract
             // equalization of prop
             modelBuilder.Entity<Siparis>().Property(p => p.SiparisId).HasColumnName("OrderID");
 
-            modelBuilder.Entity<SiparisDetay>().ToTable("OrderDetails", "Dbo");
+            modelBuilder.Entity<SiparisDetay>().ToTable("OrderDetails", "dbo");
             // equalization of prop
             modelBuilder.Entity<SiparisDetay>().Property(p => p.SiparisId).HasColumnName("OrderID");
             modelBuilder.Entity<SiparisDetay>(p => { p.HasNoKey();});

@@ -19,22 +19,22 @@ namespace Project15.Business.concrete
 
         public void Add(Message message)
         {
-            throw new NotImplementedException();
+            _messageDao.Add(message);
         }
 
         public void Delete(Message message)
         {
-            throw new NotImplementedException();
+            _messageDao.Delete(message);
         }
 
         public List<Message> GetAll()
         {
-            throw new NotImplementedException();
+            return _messageDao.GetAll();
         }
 
         public Message GetById(int msgId)
         {
-            throw new NotImplementedException();
+            return _messageDao.GetById(msgId);
         }
     }
 }
