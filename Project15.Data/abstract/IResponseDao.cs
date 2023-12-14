@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace Project15.Data.@abstract
 {
-    public interface IEntityRepository<T> where T : class, IEntity, new()
+    public interface IResponseDao : IEntityRepository<Response>
     {
-        //
-        List<T> GetAll();
-        T GetById(int Id);
-        void Add(T entity);
-        void Delete(T entity);
+        Response GetById(int rId);
     }
 }

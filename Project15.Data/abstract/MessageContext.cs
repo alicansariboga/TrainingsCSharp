@@ -16,9 +16,11 @@ namespace Project15.Data.@abstract
         }
         // entities
         public DbSet<Message> Messages { get; set; }
+        public DbSet<Response> Responses { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Message>().ToTable("Table", "dbo");
+            modelBuilder.Entity<Message>().ToTable("Messages", "dbo");
+            modelBuilder.Entity<Response>().ToTable("Responses", "dbo");
         }
     }
 }

@@ -9,6 +9,6 @@ namespace Project15.Data.@abstract
 {
     public interface IMessageDao : IEntityRepository<Message>
     {
-        //
+        Message GetById(int msgId);
     }
 }

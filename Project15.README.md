@@ -1,0 +1,1 @@
+In this project, receiving messages from the user and automatically sending messages to the user were carried out. All information coming from and going to the user is recorded in the database. That's all for now.

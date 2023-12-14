@@ -48,14 +48,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project14.Business", "Project14.Business\Project14.Business.csproj", "{EB1FFD2B-D0FD-456D-99D6-992DC701C0C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project15_Contact", "Project15_Contact", "{BE2D8864-D32D-4123-B745-D9CBFBAA004A}"
+	ProjectSection(SolutionItems) = preProject
+		Project15.README.md = Project15.README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project15.UI", "Project15.UI\Project15.UI.csproj", "{919A67D5-07F7-42C2-AE69-F7FB8CEEF69E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project15.UI", "Project15.UI\Project15.UI.csproj", "{919A67D5-07F7-42C2-AE69-F7FB8CEEF69E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project15.Business", "Project15.Business\Project15.Business.csproj", "{B73DEC8C-EB0B-4A6B-9626-218AE03BA300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project15.Business", "Project15.Business\Project15.Business.csproj", "{B73DEC8C-EB0B-4A6B-9626-218AE03BA300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project15.Data", "Project15.Data\Project15.Data.csproj", "{29F20132-53D3-4FE3-9926-F14E25CA2086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project15.Data", "Project15.Data\Project15.Data.csproj", "{29F20132-53D3-4FE3-9926-F14E25CA2086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project15.Entities", "Project15.Entities\Project15.Entities.csproj", "{BAE155C2-4E38-452F-8E0F-140453F5F2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project15.Entities", "Project15.Entities\Project15.Entities.csproj", "{BAE155C2-4E38-452F-8E0F-140453F5F2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

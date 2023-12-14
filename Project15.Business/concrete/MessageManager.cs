@@ -12,9 +12,14 @@ namespace Project15.Business.concrete
     public class MessageManager : IMessageService
     {
         IMessageDao _messageDao;
+        IResponseDao _responseDao;
         public MessageManager(IMessageDao messageDao)
         {
             _messageDao = messageDao;
+        }
+        public MessageManager(IResponseDao responseDao)
+        {
+            _responseDao = responseDao;
         }
 
         public void Add(Message message)
