@@ -1,1 +1,2 @@
 In this project, receiving messages from the user and automatically sending messages to the user were carried out. All information coming from and going to the user is recorded in the database. That's all for now.
+I used it in visual studio for the database, but nothing changes much. Just add the address to the Data/abstract/MessageContext.
